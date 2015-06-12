@@ -9,19 +9,19 @@ class StaticPagesController < ApplicationController
   end
 
   def firstq
-    @question_1 = "/assets/spcuentanos.m4a"
+      @question_1 = ActionController::Base.helpers.asset_path("spcuentanos.m4a")
   end
 
   def secondq
-    @question_2 = "/assets/spimagen.m4a"
+      @question_2 = ActionController::Base.helpers.asset_path("spimagen.m4a")
   end
 
   def thirdq
-    @question_3 = "/assets/spvacaciones.m4a"
+      @question_3 = ActionController::Base.helpers.asset_path("spvacaciones.m4a")
   end
 
   def extraq
-    @question_4 = "/assets/spvida.m4a"
+      @question_4 = ActionController::Base.helpers.asset_path("spvida.m4a")
   end
   
   def feedback
@@ -31,7 +31,7 @@ class StaticPagesController < ApplicationController
   end
 
   def sample
-     @question_s = "/assets/spdescribeamigo.m4a"
+      @question_s = ActionController::Base.helpers.asset_path("spdescribeamigo.m4a")
   end
 
 end
