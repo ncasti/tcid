@@ -1,6 +1,6 @@
 <% provide(:next, "four") %>
 <% provide(:rb, "Next") %>
-<% provide(:mseconds, "138000") %>
+<% provide(:mseconds, "160000") %>
 <% provide(:visibility, "hidden") %>
 
 <h1>Question 3</h1>
@@ -9,6 +9,7 @@
 <audio controls>
   <source src="<%= @question_3 %>" type="audio/mpeg">
 </audio>
+<p><%= @text_3[@randomnumber] %></p>
 </div>
 
 <div id="rightbox">
