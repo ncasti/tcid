@@ -59,7 +59,7 @@ class StaticPagesController < ApplicationController
   end
 
   def sample
-      @question_s = ActionController::Base.helpers.asset_path("spdescribeamigo.m4a")
+      @question_s = ActionController::Base.helpers.asset_path("s-0.m4a")
   end
 
 end
