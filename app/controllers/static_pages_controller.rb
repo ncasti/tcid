@@ -9,17 +9,17 @@ class StaticPagesController < ApplicationController
   end
 
   def firstq
-      @question_1 = ActionController::Base.helpers.asset_path("1-0.m4a")
+      @question_1 = ActionController::Base.helpers.asset_path("10.m4a")
   end
 
   def secondq
-      @image_2 = ["2-0.png", "2-1.png", "2-3.jpg"]
+      @image_2 = ["20.png", "21.png", "23.jpg"]
       
-      @question_2 = ActionController::Base.helpers.asset_path("2-0.m4a")
+      @question_2 = ActionController::Base.helpers.asset_path("20.m4a")
   end
 
   def thirdq
-      audio_3 = [ "3-0.m4a", "3-1.m4a", "3-2.m4a"]
+      audio_3 = [ "30.m4a", "31.m4a", "32.m4a"]
       
       @text_3 = [
       
@@ -47,7 +47,7 @@ class StaticPagesController < ApplicationController
   end
 
   def extraq
-      @question_4 = ActionController::Base.helpers.asset_path("4-0.m4a")
+      @question_4 = ActionController::Base.helpers.asset_path("40.m4a")
       
 
   end
@@ -59,7 +59,7 @@ class StaticPagesController < ApplicationController
   end
 
   def sample
-      @question_s = ActionController::Base.helpers.asset_path("s-0.m4a")
+      @question_s = ActionController::Base.helpers.asset_path("s0.m4a")
   end
 
 end
